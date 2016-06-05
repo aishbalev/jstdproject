@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>TRAIN LOCATIONS</name>
+		<Placemark>
+			<name>Barnimstraße</name>
+			<description><![CDATA[Barnim Street (TRAIN location: Elise's home)]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.424091,52.52551700000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bavarian Quarter - Bayerisches Viertel</name>
+			<description><![CDATA[Neighborhood (TRAIN location: Seraph & Wolf's apartment)]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.339077,52.488705,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Berlin Anhalter Bahnhof (train station)</name>
+			<description><![CDATA[Point of Nazi deportations]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.380921,52.50384,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Charité Hospital</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>13.377602000000001,52.52651500000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fontanepromenade</name>
+			<description><![CDATA[Labor Bureau]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.40832,52.49103000000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Friedrichshain</name>
+			<description><![CDATA[Neighborhood]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.45423,52.515802,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Große Hamburger Straße</name>
+			<description><![CDATA[Jewish school and elderly care home on Hamburg Main Street; Point of detention for many of Berlin's Jews]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.398986,52.525579,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grunewald (freight yard)</name>
+			<description><![CDATA[Point of Nazi deportations]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.284936,52.492065,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hackescher Markt</name>
+			<description><![CDATA[Street market]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.402951,52.5231,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lange Straße</name>
+			<description><![CDATA[Lange Street (TRAIN location: Alexander and Ruth's home)]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.430593,52.512842,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lützowstraße</name>
+			<description><![CDATA[Lützow Street, Maggi food company, head office]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.362489,52.503674,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Märchenbrunnen</name>
+			<description><![CDATA[The Fountain of Fairy Tales, Friedrichshain public park]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.426742000000003,52.527947000000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Marzahn</name>
+			<description><![CDATA[Approximate site of Nazi encampment for Roma (1936-1943)]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.550000000000002,52.550000000000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Moabit</name>
+			<description><![CDATA[Neighborhood<br><br>(TRAIN location: Professor Duerr's home)]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.343204,52.529485,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Motzstraße and Kalckreuthstraße</name>
+			<description><![CDATA[Motz Street and Kalckreuth Street, close to Eldorado club (TRAIN location: "wine cellar")]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.337326,52.498054,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Putlitz Street Bahnhof (train station)</name>
+			<description><![CDATA[Point of Nazi deportations]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.34102,52.532389,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rosenstraße</name>
+			<description><![CDATA[Jewish Community Center on Rose Street; Site of public protest against the Nazi round ups of Berlin's remaining Jews]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.404927,52.52153500000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Siemensstadt</name>
+			<description><![CDATA[Siemens Factory]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.258015,52.540861,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sredzkistraße, Schultheiss Brewery</name>
+			<description><![CDATA[Brewery, Sredzki Street]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.413577,52.538413,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>St. Hedwigs Kathedrale</name>
+			<description><![CDATA[Cathedral]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.394616,52.516011,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tiergartenstraße 4</name>
+			<description><![CDATA[52.51061, 13.3689     www.unsilence.org]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>13.36890219999998,52.51061869999999,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-22-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-22-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-22'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-22-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-22-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-22-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-22-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-22-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-22-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-22-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
