@@ -9,18 +9,15 @@
 </head>
 <body>
     <input id="inbox" class="controls" type="text" placeholder="Page Search" onkeydown="Enter()"></input>
-	<button id="searchbutton" type="button" onclick="pageSearch()">press</button>
-	<!--<p>Is this thing on?</p>
-	<form>
-		<textarea id="textbox" cols="10" rows="1">ie 35</textarea>
-		<br />
-	</form>-->
-	<div id="outbox">null</div>
-	<br />
+	<br>
+	<h3>CHARACTER PATHS:
+	<button id="kizzybutton" onclick="kinit()">Kizzy</button></h3>
 	<div id="map"></div>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZy7jJEU3yCjTB7Ik3wnfGvI9AgIClcks&callback=initMap&libraries=places"
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZy7jJEU3yCjTB7Ik3wnfGvI9AgIClcks&callback=pageSearch&libraries=places"
         async defer></script>
-<!--	<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qf5jUQVu5DmeI0SluuqllBMOgTM" width="640" height="480"></iframe>
--->
+	<div id="outbox">
+		<div id="names"></div>
+		<div id="locs"></div>
+	</div>
 </body>
 </html>

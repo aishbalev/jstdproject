@@ -2,10 +2,45 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	background-color: #353535;
+	color: #da4444;
+	font-family: 'Open Sans', "Segoe UI", Arial, Sans-Serif;
+	font-size: 15px;
+	font-weight: 200;
+	letter-spacing: 0.75px;
 }
 
 #map {
-	height: 100%;
+	height: 60%;
+}
+
+h3 {
+	margin-left: 5%;
+	width: 90%;
+	height: auto;
+	font-weight: 200;
+	font-size: 18px;
+}
+
+#outbox {
+	margin-top: 5%;
+	margin-left: 5%;
+	height: 10%;
+	width: 75%;
+}
+
+button {
+	border: 2px solid white;
+	background-color: transparent;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 24px;
+	padding-right: 24px;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 1px;
+	margin: 12px;
 }
 
 .controls {
@@ -30,11 +65,11 @@ html, body {
 	width: 300px;
 }
 
-#pac-input:focus {
+#inbox:focus {
 	border-color: #4d90fe;
 }
 
-.pac-container {
+.inbox {
 	font-family: Roboto;
 }
 
@@ -52,4 +87,8 @@ html, body {
 
 #target {
 	width: 345px;
+}
+
+#outbox {
+	
 }
