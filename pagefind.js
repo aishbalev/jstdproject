@@ -67,23 +67,47 @@ function pageSearch() {
 		map: map,
 		title: 'Barnimstraﬂe'
 	});
+	var infowindow1 = new google.maps.InfoWindow({
+		content: "<p>Barnimstraﬂe: Elise's apartment</p><p>Identity Intersection Point: Aryan, Disabled, Jewish</p>"
+	});
+	marker1.addListener('click', function() {
+		infowindow1.open(map, marker1);
+	});
 
     var marker2 = new google.maps.Marker({
 		position: {lat: 52.489, lng: 13.339},
 		map: map,
 		title: 'Bavarian Quarter - Bayerisches Viertel'
 	}); 
+	var infowindow2 = new google.maps.InfoWindow({
+		content: "<p>Bavarian Quarter - Seraph's apartment</p><p>Identity Intersection Point: Romani, Political Dissident, Jewish</p>"
+	});
+	marker2.addListener('click', function() {
+		infowindow2.open(map, marker2);
+	});
 	
 	var marker3 = new google.maps.Marker({
 		position: {lat: 52.503, lng: 13.381},
 		map: map,
 		title: 'Berlin Anhalter Bahnhof (train station)'
 	});
+	var infowindow3 = new google.maps.InfoWindow({
+		content: 'Berlin Anhalter Bahnhof (train station)'
+	});
+	marker3.addListener('click', function() {
+		infowindow3.open(map, marker3);
+	});
 
     var marker4 = new google.maps.Marker({
 		position: {lat: 52.527, lng: 13.378},
 		map: map,
 		title: 'CharitÈ Hospital'
+	});
+	var infowindow4 = new google.maps.InfoWindow({
+		content: 'CharitÈ Hospital'
+	});
+	marker4.addListener('click', function() {
+		infowindow4.open(map, marker4);
 	});
 	
 	var marker5 = new google.maps.Marker({
@@ -103,6 +127,12 @@ function pageSearch() {
 		map: map,
 		title: 'Groﬂe Hamburger Straﬂe'
 	});
+	var infowindow7 = new google.maps.InfoWindow({
+		content: "<p>Groﬂe Hamburger StraﬂeJewish school and elderly care home on Hamburg Main Street; Point of detention for many of Berlin's Jew</p><p>Identity intersection point: Jewish and Romani</p>"
+	});
+	marker7.addListener('click', function() {
+		infowindow7.open(map, marker7);
+	});
 
     var marker8 = new google.maps.Marker({
 		position: {lat: 52.492065, lng: 13.284936},
@@ -114,6 +144,12 @@ function pageSearch() {
 		position: {lat: 52.5231, lng: 13.402951},
 		map: map,
 		title: 'Hackescher Markt'
+	});
+	var infowindow9 = new google.maps.InfoWindow({
+		content: '<h3>Hackescher Markt<h3><h3>Identity intersection point: Aryan and African</h3>'
+	});
+	marker9.addListener('click', function() {
+		infowindow9.open(map, marker9);
 	});
 
     var marker10 = new google.maps.Marker({
@@ -145,11 +181,23 @@ function pageSearch() {
 		map: map,
 		title: 'Moabit'
 	});
+	var infowindow14 = new google.maps.InfoWindow({
+		content: "<h3>Moabit: Duer's home</h3> <h3>Identity Intersection point: Romani and Homosexuality</h3>"
+	});
+	marker14.addListener('click', function() {
+		infowindow14.open(map, marker14);
+	});
   	
 	var marker21 = new google.maps.Marker({
 		position: {lat: 52.498054, lng: 13.337326},
 		map: map,
 		title: 'Motzstraﬂe and Kalckreuthstraﬂe'
+	});
+	var infowindow21 = new google.maps.InfoWindow({
+		content: "<p>Motzstraﬂe and Kalckreuthstraﬂe: the wine cellar</p><p>Identity Intersection Point: Romani and Homosexual</p>"
+	});
+	marker21.addListener('click', function() {
+		infowindow21.open(map, marker21);
 	});
 
     var marker15 = new google.maps.Marker({
@@ -162,6 +210,12 @@ function pageSearch() {
 		position: {lat: 52.521535, lng: 13.404927},
 		map: map,
 		title: 'Rosenstraﬂe'
+	});
+	var infowindow16 = new google.maps.InfoWindow({
+		content: '<p>Rosenstraﬂe</p><p>Identity Intersection Point: Homosexual and Jewish</p>'
+	});
+	marker16.addListener('click', function() {
+		infowindow16.open(map, marker16);
 	});
 
     var marker17 = new google.maps.Marker({
@@ -181,6 +235,12 @@ function pageSearch() {
 		map: map,
 		title: 'St. Hedwigs Kathedrale'
 	});	
+	var infowindow19 = new google.maps.InfoWindow({
+		content: "<p>St. Hedwig's Cathedral</p><p>Identity Intersection Point: Jewish and Catholic</p>"
+	});
+	marker19.addListener('click', function() {
+		infowindow19.open(map, marker19);
+	});
 	
 	var marker20 = new google.maps.Marker({
 		position: {lat: 52.5106187, lng: 13.3689022},
@@ -224,7 +284,7 @@ function pageSearch() {
 		document.getElementById("locs").innerHTML = moreout.concat(pagelocs);
 		//put in the marker
 		if (input == 6 || input == 7 || input == 8){
-			marker7.setMap(map);
+			marker19.setMap(map);
 		}
 		if (input == 9 || input == 10 || input == 11 || input == 12 || input == 13 || input == 14){
 			marker9.setMap(map);
